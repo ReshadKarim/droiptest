@@ -1,5 +1,5 @@
 import React from "react";
-import LLL from './LLL.png';
+import LLL from '/LLL.png';
 
 function HeroBanner() {
   return (
