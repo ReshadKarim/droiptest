@@ -26,10 +26,12 @@ function HeroBanner() {
             onClick={() => (window.location.href = "/signup")}
             className='border-2 border-red-900 text-white font-bold py-3 px-10 md:px-12 rounded-full shadow-lg hover:bg-red-700 transition duration-300'
           >
-            Get Started
+            Get Started Now
           </button>
         </div>
       </div>
+
+
 
       {/* Right Section (Logo) */}
       <div className='hidden md:block mt-10 md:mt-0 md:ml-10'>
