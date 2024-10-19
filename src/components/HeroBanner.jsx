@@ -1,4 +1,5 @@
 import React from "react";
+import LLL from './LLL.png';
 
 function HeroBanner() {
   return (
@@ -33,7 +34,7 @@ function HeroBanner() {
       {/* Right Section (Logo) */}
       <div className='hidden md:block mt-10 md:mt-0 md:ml-10'>
         <img
-          src='src/assets/LLL.png'
+          src={LLL}
           alt='Logo'
           className='w-72 md:w-[400px] lg:w-[500px] object-contain'
         />
